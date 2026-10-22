@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Kelompok 1 TKJ: profil anggota, timeline hosting dan domain, serta tujuan kelompok dalam belajar membuat website.">
+  <meta name="theme-color" content="#0a0f24">
+  <title>OUR KELOMPOK 1 | Portofolio TKJ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#konten">Lewati ke konten</a>
+  <div class="bg-glow bg-glow--purple" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--cyan" aria-hidden="true"></div>
+
+  <header class="site-header" id="header">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a href="#beranda" class="brand">KELOMPOK<span>1</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#anggota">Anggota</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#tujuan">Tujuan</a></li>
+        <li><a href="#penutup">Penutup</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="konten">
+    <!-- HERO -->
+    <section class="hero" id="beranda">
+      <div class="container hero-inner">
+        <p class="badge reveal">Portofolio Kelompok &bull; TKJ</p>
+        <h1 class="hero-title reveal">OUR <span class="neon-text">KELOMPOK 1</span></h1>
+        <p class="hero-sub reveal">Kami tujuh siswa TKJ yang belajar membuat website, mengenal hosting, domain, DNS, dan HTTPS secara bertahap.</p>
+        <div class="hero-actions reveal">
+          <a href="#anggota" class="btn btn-primary">Lihat Anggota</a>
+          <a href="#timeline" class="btn btn-ghost">Timeline Hosting</a>
+        </div>
+        <p class="hero-note reveal">Status: website masih tahap pengembangan dan pengujian lokal.</p>
+      </div>
+    </section>
+
+    <!-- ANGGOTA -->
+    <section class="section" id="anggota">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Tim Kami</p>
+          <h2>Anggota <span class="neon-text">Kelompok</span></h2>
+          <p>Klik kartu atau tombol detail untuk melihat profil lengkap.</p>
+        </header>
+        <div class="cards" id="cardGrid"></div>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="section" id="timeline">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Langkah Publikasi</p>
+          <h2>Timeline <span class="neon-text">Hosting &amp; Domain</span></h2>
+          <p>Delapan tahap dari ide sampai website bisa dibuka lewat internet.</p>
+        </header>
+        <ol class="timeline">
+          <li class="tl-item reveal">
+            <span class="tl-num">1</span>
+            <div class="tl-card glass">
+              <h3>Perencanaan</h3>
+              <p>Tentukan tujuan website, isi halaman, pembagian tugas, dan gaya desain. Ibarat merancang topologi jaringan sebelum memasang kabel.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num">2</span>
+            <div class="tl-card glass">
+              <h3>Pembuatan Website</h3>
+              <p>Tulis kode HTML untuk struktur, CSS untuk tampilan, dan JavaScript untuk interaksi menggunakan VS Code.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num">3</span>
+            <div class="tl-card glass">
+              <h3>Pengujian Lokal</h3>
+              <p>Buka website di komputer sendiri (misalnya dengan Live Server). Cek tombol, menu HP, modal, dan tampilan di berbagai ukuran layar.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num">4</span>
+            <div class="tl-card glass">
+              <h3>Memilih Hosting</h3>
+              <p>Hosting adalah "server" tempat file website disimpan agar bisa diakses 24 jam. Bandingkan harga, kapasitas, dukungan, dan apakah ada HTTPS gratis.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num">5</span>
+            <div class="tl-card glass">
+              <h3>Upload File</h3>
+              <p>Kirim index.html, style.css, dan script.js ke hosting lewat File Manager, FTP, atau fitur upload penyedia. Pastikan struktur folder tetap sama.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num">6</span>
+            <div class="tl-card glass">
+              <h3>Menghubungkan Domain melalui DNS</h3>
+              <p>Domain adalah alamat website. Lewat pengaturan DNS, kita mengarahkan domain ke server hosting dengan record seperti A atau CNAME, atau nameserver dari hosting. Perubahan DNS bisa butuh waktu untuk menyebar (propagasi).</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num">7</span>
+            <div class="tl-card glass">
+              <h3>Mengaktifkan HTTPS</h3>
+              <p>Pasang sertifikat SSL agar koneksi terenkripsi dan muncul ikon gembok di browser. Banyak hosting menyediakan SSL gratis.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num">8</span>
+            <div class="tl-card glass">
+              <h3>Pengujian Online</h3>
+              <p>Buka alamat domain dari laptop dan HP, juga dari jaringan lain. Cek semua halaman, gambar, tombol, kecepatan, dan HTTPS sebelum dibagikan.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- TUJUAN -->
+    <section class="section" id="tujuan">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Visi Bersama</p>
+          <h2>Tujuan <span class="neon-text">Kelompok</span></h2>
+        </header>
+        <div class="goals">
+          <article class="glass goal reveal">
+            <h3>Belajar Web Dasar</h3>
+            <p>Memahami HTML, CSS, dan JavaScript lewat praktik langsung.</p>
+          </article>
+          <article class="glass goal reveal">
+            <h3>Paham Hosting &amp; Domain</h3>
+            <p>Mengerti alur dari file lokal sampai bisa diakses online.</p>
+          </article>
+          <article class="glass goal reveal">
+            <h3>Kerja Sama Tim</h3>
+            <p>Berbagi tugas, saling membantu, dan menyelesaikan proyek bersama.</p>
+          </article>
+          <article class="glass goal reveal">
+            <h3>Portofolio Rapi</h3>
+            <p>Memiliki karya yang bisa ditunjukkan untuk PKL dan dunia kerja.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PENUTUP -->
+    <section class="section" id="penutup">
+      <div class="container">
+        <div class="glass closing reveal">
+          <p class="eyebrow">Penutup</p>
+          <h2>Terima <span class="neon-text">Kasih</span></h2>
+          <p>Proyek ini adalah langkah awal kami belajar membangun dan mempublikasikan website. Masih banyak yang perlu dipelajari, dan kami akan terus mencoba, memperbaiki, dan berkembang bersama.</p>
+          <p>Terima kasih kepada guru pembimbing, teman-teman, dan semua pihak yang sudah mendukung proses belajar kami.</p>
+          <a href="#beranda" class="btn btn-primary">Kembali ke Atas</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="brand">KELOMPOK<span>1</span></p>
+      <ul class="footer-nav" aria-label="Navigasi footer">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#anggota">Anggota</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#tujuan">Tujuan</a></li>
+      </ul>
+      <p class="copy">&copy; <span id="year">2026</span> Kelompok 1 TKJ. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-box glass" role="dialog" aria-modal="true" aria-labelledby="modalName">
+      <button class="modal-close" id="modalClose" aria-label="Tutup detail" data-close>&times;</button>
+      <div class="avatar avatar--lg" id="modalAvatar" aria-hidden="true"></div>
+      <h3 id="modalName"></h3>
+      <p class="modal-role" id="modalRole"></p>
+      <dl class="modal-list">
+        <div><dt>Umur</dt><dd id="modalAge"></dd></div>
+        <div><dt>Kelas</dt><dd id="modalClass"></dd></div>
+        <div><dt>Hobi</dt><dd id="modalHobby"></dd></div>
+        <div><dt>Minat</dt><dd id="modalInterest"></dd></div>
+      </dl>
+      <p class="modal-desc" id="modalDesc"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
